@@ -1,0 +1,43 @@
+/* CSS declarations go here */
+
+body {
+  background-color: #252525;
+  color: rgb(31, 235, 31); /* green */
+  font-family: monospace;
+  font-size: 1.5em;
+}
+
+
+#buffer {
+  margin-top: 50px;
+  width: 90%;
+  padding: 1em 1em 1em 1em;
+  overflow: auto;
+  font-size: 1.25em; }
+
+
+#command-line {
+  margin-top: -30px;
+  width: 90%;
+  font-size: 1.5em;
+  padding: 0em;
+  position: fixed;
+  display: block; }
+  #info-ui {
+    font-size: .4em;
+    position: absolute;
+    margin-top: 2px;
+    margin-left: 14px;}
+  #command-line #dollar-ui {
+    position: absolute;
+    margin: 14px;}
+  #command-line #cmd {
+    outline: none;
+    padding: 0.5em;
+    font: inherit;
+    color: inherit;
+    width: 100%;
+    background-color: #333;
+    border: 0px;
+    border-radius: 10px;
+    padding-left: 45px; }

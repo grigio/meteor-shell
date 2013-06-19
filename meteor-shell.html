@@ -1,0 +1,29 @@
+<head>
+  <title>meteor-shell</title>
+</head>
+
+<body>
+    {{> input}}
+    {{> buffer}}
+    {{> analytics}}
+</body>
+
+<template name="input">
+  <div id="command-line">
+    <span id="dollar-ui">$</span>
+    <input id="cmd" autofocus />
+  </div>
+</template>
+
+
+<template name="buffer">
+  <div id="buffer">
+    <pre>
+{{ output }}
+    </pre>
+  </div>
+</template>
+
+<template name="analytics">
+<!-- Placeholder -->
+</template>
